@@ -4,6 +4,6 @@
 
 @section('content')
 
-    <h1>Exibir produto id: {{$id}}</h1>
+    <h2>Exibir produto id: {{$id}}</h2>
 
 @endsection

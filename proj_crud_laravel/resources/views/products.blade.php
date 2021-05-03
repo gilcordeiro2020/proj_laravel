@@ -3,7 +3,12 @@
 @section('title', 'Página de Produtos')
 
 @section('content')
+    <p>Tela de produtos:</p>
 
-    <h1>Produtos Disponíveis:</h1>
+    @if($busca != '')
+        <p>O usuário está buscando por: {{ $busca }}</p>
+    @endif
+
+
 
 @endsection

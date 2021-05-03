@@ -37,7 +37,9 @@ Route::get('/contact', function () {
     return view('contact');
 });
 Route::get('/products', function () {
-    return view('products');
+    $busca = request('search');
+
+    return view('products',['busca' => $busca]);
 });
 
 
