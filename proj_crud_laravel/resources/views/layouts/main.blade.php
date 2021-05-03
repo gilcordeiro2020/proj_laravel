@@ -19,6 +19,29 @@
         <link rel="stylesheet" href="/css/style.css">
         <script src="/js/scripts.js">  </script>
     </head>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-lighit"></nav>
+        <div class="collapse nav collapse" id="navb"></div>
+            <a href="/" class="navbar-brand">
+                <img src="/img/hdcevents_logo.svg" alt="HDC Events">
+            </a>
+            <ul class="navbar-nav">
+                <li class="itens">
+                    <a href="/" class="li">Eventos</a>
+                </li>
+                <li class="itens">
+                    <a href="/events/create" class="li">Criar eventos</a>
+                </li>
+                <li class="itens">
+                    <a href="/" class="li">Entrar</a>
+                </li>
+                <li class="itens">
+                    <a href="/" class="li">Cadastrar</a>
+                </li>
+            </ul>
+        
+    </header>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <body>
     @yield('content')
 
